@@ -1,0 +1,25 @@
+# Dummy Microfrontend Architecture
+
+This is an example of how can we build microfrontends that can be used in isolation or inside a container and decide in which part of our application we fetch those microfrontends
+
+This project has 3 folders which can be run individually
+
+## Installing dependencies
+
+execute 
+
+``
+npm install
+``
+
+in container, cart and products.
+
+## Run project
+
+To run every microfrontend execute
+``
+npm start
+``
+
+In order to fetch cart and products inside container you must have the three applications running
+
